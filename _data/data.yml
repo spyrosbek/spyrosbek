@@ -15,9 +15,10 @@ sidebar:
     email:
     phone:
     timezone: Europe/Athens
+    timezoneURL: https://time.is/Athens
     citizenship:
     website:
-    linkedin: spyros-bekiaris-743644230
+    linkedin: spyros-bekiaris
     xing:
     github: spyrosbek
     telegram: # add your nickname without '@' sign
@@ -27,7 +28,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: #http://www.africau.edu/images/default/sample.pdf
+    pdf: https://drive.google.com/file/d/1t-7iUGJykH4J-S6ey3a_8-h_4PoYCt6k/view?usp=sharing
 
     languages:
       title: Languages
@@ -41,107 +42,178 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Travelling
-          link:
-
         - item: Music & Guitar
-          link:
-
-        - item: Cinema
           link:
 
         - item: Video games & Board games
           link:
 
+        - item: Cinema
+          link:
+
         - item: Swimming
+          link:
+
+        - item: Travelling
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Graduated from the School of Electrical and Computer Engineering of National Technical University of Athens.
+      Majored in Computer Systems and Software with a diploma thesis on the Design and Development of a Crowdsourcing Platform for metadata enrichment in Digital Cultural Heritage.
+      
+      I am a Software Engineer, specialized as a Frontend Developer on a variety of projects and use-cases.
+      I use a wide range of Database and Web technologies.
+      
+      I have also been a Researcher at the Intelligent Systems, Content & Interaction Lab of NTUA. I have been involved in various European projects the laboratory is participating to, for which I author code and implement core features of the web platforms the laboratory owns.
+      For a number projects I have also assumed the role of Project Manager and Frontend Team Leader.
+      
+      I have been involved in all the stages of the Software Development Life Cycle, from the ideation of a product, up to its deployment.
 education:
     title: Education
     info:
-      - degree: MEng in Electrical & Computer Egineering
+      - degree: MEng in Electrical & Computer Engineering
         university: National Technical University of Athens (NTUA)
-        time: October 2019
+        time: September 2019
         details: |
             - GPA: 7.30
             - Major in Computer Systems and Software
             - Minor in Computer Networks and Bioengineering
-            - Thesis: Design and Development of a Crowdsourcing Platform for metadata enrichment in Digital Cultural Heritage
+            - <a href='https://dspace.lib.ntua.gr/xmlui/bitstream/handle/123456789/50123/Complete%20Thesis.pdf' target='_blank'>[Thesis]</a> Design and Development of a Crowdsourcing Platform for metadata enrichment in Digital Cultural Heritage
 experiences:
-    title: Experiences
+    title: Experience
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Software Engineer / Frontend Developer
+        time: May 2022 - Present
+        company: Datoptron (Athens, Greece)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Software engineer responsible for the company’s frontend team.
+          - Responsible to build efficient, scalable, and maintainable web applications.
+          - Applying Scrum/Agile development methodologies using project management tools such as JIRA.
+          - Problem solving by making use of the entire development cycle.
+          - Collaborating within cross-functional teams, committed to participating in code reviews to maintain code quality and consistency.
+      - role: Software Engineer / Junior Researcher
+        time: Feb 2019 - Present
+        company: NTUA - Artificial Intelligence and Learning Systems Laboratory (Athens, Greece)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Working as a Software Engineer and Frontend Developer in the design and development of web platforms.
+          - Coordinating the laboratory's frontend team (3 devs), planning and monitoring regular coding sprints.
+          - Project management and communications with partners about the project requirements.
+          - Responsible for delivering an idea/concept through all stages of SDLC to a fully functioning product.
+          - Participating in the laboratory's research team on authoring papers about the team's latest work.
+      - role: Co-Founder / Frontend Web Developer
+        time: Mar 2022 - Apr 2023
+        company: Nerion (Chios, Greece - remote)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Co-created and participated in a team that has been involved in multiple international projects.
+          - Worked with Python and Django, as well as JavaScript and Vue.js.
+          - Our team took over the maintenance, development, and extension of the platform Ellinopoula.
+          - Our team, in close collaboration with the startup Grapevine, was responsible about the maintenance and expansion of the platform 11888 -
+          Giaola.
+      - role: Frontend Web Developer
+        time: Mar 2020 - Nov 2021
+        company: ThinkCode (Nicosia, Cyprus - remote)
+        details: |
+          - Worked as a Frontend Engineer for the European project the company was participating to, called ”Europeana XX: Century of Change”, and
+          which focused on the 20th century and its social, political and economical changes as documented in photographs, videos, paintings and files.
+          - The project delivered high-quality content to Europeana and increased the quality of existing content and metadata currently available in
+          Europeana Collections to enhance their discoverability and reuse.
+      - role: Frontend Web Developer
+        time: June - Sept 2020, Apr - July 2021
+        company: Europeana Foundation (Hague, Netherlands - remote)
+        details: |
+          - Worked as a Front-end developer on the Europeana Collections portal
+          - Part of the team that developed a new feature in the portal, the ”Gallery builder”.
+          - Used JavaScript, Nuxt.js, HTML, Sass, Bootstrap for the development.
+          - Used Cucumber.js (to write e2e tests), Jest (to write unit tests) for the newly added components.
+      - role: IT support / Private in Research and Informatic Corps
+        time: June 2018 - Feb 2019
+        company: Greek Army (Greece)
+        details: |
+          - Assistant Manager of the IT department of EKEMS (Special Army-Units Supply Center)
+          - Managed the unit’s servers (Windows 2016 Servers)
+          - Managed a variety of ERP and Retail applications, the unit used in daily basis
+          - Managed the use of a variety of Cisco Network Devices
+          - Managed the unit’s Database System
+          - Provided Software and Hardware support
+      - role: Junior Fullstack Developer
+        time: Oct 2016 - Sept 2017
+        company: NTUA - Intelligent Systems Laboratory (Athens, Greece)
+        details: |
+          - Designed and developed the crowdsourcing platform ’WITHcrowd’ as part of my Diploma Thesis
+          - Helped in a variety of Projects that were running at the lab, at that time
+          - Studied a wide variety of existing work and tools in the Crowdsourcing field
+          - Studied and extended the Back-End of the lab’s existing platform ’WITH’, using Java and Play Framework
+          - Designed the database model (in NoSQL) used for the development of WITHcrowd, alongside with the necessary Back-End API
+          - Developed the Front-End of WITHcrowd using the Aurelia-JS framework
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Large scale projects I have been involved into as a Software Engineer
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: "AI4Culture"
+        link: "https://ai4culture.eu/"
+        tagline: "AI4Culture is a platform designed to provide comprehensive training and resources for individuals and institutions interested in applying Artificial Intelligence (AI) technologies in the cultural heritage sector. It aims to empower users with the knowledge and skills needed to leverage AI for preserving, managing, and promoting cultural heritage."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: "SAGE"
+        link: "https://sage-dev.ails.ece.ntua.gr/signin"
+        tagline: "SAGE  is a web-based tool for generating, enriching, validating, searching and publishing data as a knowledge graph."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: "STIRData"
+        link: "https://dev.stirdata.eu/"
+        tagline: "STIRData is an online platform for searching, navigating, synthetically analysing, and visualising company-related open data content."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: "Giaola 11888"
+        link: "https://www.11888.gr/"
+        tagline: "Giaola is an online platform providing cataloging and indexing services for professionals and companies located in Greece. It is owned by the
+Hellenic Telecommunications Organisation S.A. (OTE Group)"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: "Ellinopoula"
+        link: "https://www.ellinopoula.com/"
+        tagline: "Ellinopoula is an e-learning platform designed for kids to learn Greek online and help both parents and teachers pass on Hellenism to the next
+generation."
+
+      - title: "CultureLabs"
+        link: "https://recipes.culture-labs.eu/"
+        tagline: "CultureLabs Recipes is a digital platform aimed at fostering social innovation through the sharing of community-led cultural projects. It offers a collection of 'recipes' that detail different methodologies and approaches for creating inclusive, participatory cultural activities."
+
+      - title: "Europeana"
+        link: "https://www.europeana.eu/"
+        tagline: "Europeana is a digital platform providing access to millions of digitized cultural heritage items from across Europe, including artworks, books, music, and more. It collaborates with various museums, galleries, and libraries to make these collections available to the public. Europeana supports education, research, and creative industries by offering a wide array of resources and tools that celebrate and preserve European culture and history."
+
+      - title: "CrowdHeritage"
+        link: "https://crowdheritage.eu/"
+        tagline: "CrowdHeritage is an online platform for conducting crowdsourcing campaigns in order to enrich and validate the metadata of cultural heritage collections."
+
+      - title: "WITHCulture"
+        link: "https://withculture.eu/"
+        tagline: "WITHCulture provides access to digital cultural heritage items from different repositories and  offers a number of added-value services for their creative reuse."
+
+freelancing:
+    title: Freelance Web Projects
+    intro: >
+      Promotional websites I have created as freelancing projects
+    assignments:
+      - title: Translational Engineering in Health and Medicine
+        link: "https://masterteam.ntua.gr/"
+        tagline: "A responsive website providing information about the TEAM master program in NTUA"
+
+      - title: Datoptron
+        link: "https://datoptron.com/"
+        tagline: "A responsive website promoting the Datoptron company"
+
+      - title: Nerion
+        link: "https://nerion.gr/"
+        tagline: "A responsive website promoting the Nerion company"
+
+      - title: STIRData
+        link: "https://stirdata.eu/"
+        tagline: "A responsive website providing information on the STIRData project"
+
+      - title: Beauty Lounge
+        link: "https://beautylounge.com.gr/"
+        tagline: "A responsive website promoting the BeautyLounge business"
 
 oss:
     title: OSS Contributions
@@ -165,46 +237,100 @@ oss:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      A list of publications I have co-authored as a Researcher in the AILS laboratory of NTUA
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Employing Crowdsourcing for Enriching a Music Knowledge Base in Higher Education"
+        link: "http://doi.org/10.1007/978-981-99-7947-9_17"
+        authors: "Vassilis Lyberatos; Spyridon Kantarelis; Eirini Kaldeli; Spyros Bekiaris; Panagiotis Tzortzis; Orfeas Menis - Mastromichalakis; Giorgos Stamou"
+        conference: "[Conference Paper] [November 2023] Artificial Intelligence in Education Technologies: New Development and Innovative Practices (pp.224-240) 10.1007/978-981-99-7947-9_17"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Employing Crowdsourcing for Enriching a Music Knowledge Base in Higher Education"
+        link: "http://doi.org/10.48550/arXiv.2306.07310"
+        authors: "Vassilis Lyberatos; Spyridon Kantarelis; Eirini Kaldeli; Spyros Bekiaris; Panagiotis Tzortzis; Orfeas Menis - Mastromichalakis; Giorgos Stamou"
+        conference: "[Conference Paper] [June 2023] 10.48550/arXiv.2306.07310"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "CrowdHeritage: Crowdsourcing for Improving the Quality of Cultural Heritage Metadata"
+        link: "https://doi.org/10.3390/info12020064"
+        authors: "Eirini Kaldeli; Orfeas Menis-Mastromichalakis; Spyros Bekiaris; Maria Ralli; Vassilis Tzouvaras; Giorgos Stamou"
+        conference: "[Journal Article] [February 2021] Information 12, no. 2: 64."
+
+      - title: "CrowdHeritage: Improving the quality of Cultural Heritage through crowdsourcing methods"
+        link: "https://doi.org/10.1109/smap49528.2020.9248463"
+        authors: "Maria Ralli; Spyros Bekiaris; Eirini Kaldeli; Orfeas Menis-Mastromichalakis; Natasa Sofou; Vassilis Tzouvaras; Giorgos Stamou"
+        conference: "[Conference Paper] [October 2020] SMAP 2020, no. : 1-6"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+      - name: Programming Languages
+        entries:
+          - TypeScript
+          - JavaScript
+          - HTML
+          - CSS
+          - Sass
+          - Less
+          - Python
+          - C
+          - PHP
+          - Java
+          - SQL
+      - name: Web Application Frameworks
+        entries:
+          - Nuxt.js
+          - Vue.js
+          - Aurelia
+          - Django
+          - Jekyll
+          - React
+      - name: CSS Frameworks
+        entries:
+          - Bootstrap
+          - UI Kit
+          - Materialize
+      - name: Web Technologies
+        entries:
+          - Storybook
+          - Chrome Development Tools
+          - RESTful API
+      - name: State Management
+        entries:
+          - Pinia
+          - Vuex
+      - name: Testing Tools
+        entries:
+          - Cucumber.js (e2e)
+          - Jest (unit)
+          - ESLint (linting)
+      - name: Package Managers
+        entries:
+          - Npm
+          - Yarn
+      - name: Database Systems
+        entries:
+          - MongoDB
+          - PostgreSQL
+          - MySQL
+      - name: Version Control Systems
+        entries:
+          - Git
+          - GitHub
+      - name: Collaboration Tools
+        entries:
+          - Jira
+          - Asana
+          - Confluence
+          - Figma
+          - Zeplin
+      - name: Operating Systems
+        entries:
+          - Microsoft Windows
+          - GNU/Linux
+          - MacOS
+      - name: Software and Tools
+        entries:
+          - Microsoft Office Suite
+          - LaTeX
 footer: >
     Developed by Spyros Bekiaris. All rights reserved.

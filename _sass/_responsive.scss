@@ -9,6 +9,10 @@
     width: inherit;
   }
 
+  footer {
+    padding: 24px 0;
+  }
+
   .wrapper {
     display: block;
   }
@@ -36,8 +40,12 @@
   .skillset .level-title {
     display: inline-block;
     float: left;
-    width: 30%;
+    //width: 30%;
     margin-bottom: 0;
+  }
+
+  .skillset .skill-items {
+    padding-top: 8px;
   }
 
   .skillset .level-bar {
