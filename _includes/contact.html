@@ -19,12 +19,6 @@
     </li>
     {% endif %}
 
-    {% if sidebar.timezone %}
-    <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="{{sidebar.timezoneURL}}" target="_blank">{{ sidebar.timezone }}</a>
-    </li>
-    {% endif %}
-
     {% if sidebar.telegram %}
     <li class="telegram"><i class="fab fa-telegram"></i>
       <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
@@ -34,6 +28,12 @@
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.pdf %}
+    <li class="pdf"><i class="fas fa-file-pdf"></i>
+      <a href="{{ sidebar.pdf }}" target="_blank">Resume (PDF)</a>
     </li>
     {% endif %}
 
@@ -91,9 +91,9 @@
     </li>
     {% endif %}
 
-    {% if sidebar.pdf %}
-    <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="{{ sidebar.pdf }}" target="_blank">CV</a>
+    {% if sidebar.timezone %}
+    <li class="timezone"><i class="fas fa-clock"></i>
+      <a href="{{sidebar.timezoneURL}}" target="_blank">{{ sidebar.timezone }}</a>
     </li>
     {% endif %}
 

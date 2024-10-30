@@ -1,6 +1,9 @@
 ---
 #Add "layout: compress" here to compress the html code
 ---
+{% assign sections = site.data.data.navbar.sections %}
+{% assign navbar = site.data.data.navbar.enabled %}
+
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
@@ -8,6 +11,18 @@
 {% include head.html %}
 
 <body>
+  {% if navbar %}
+  <ul class="wrapper navbar">
+    {% for section in sections %}
+    <li>
+      <a href="#{{ section.tag }}">
+        {{ section.label }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
   <div class="wrapper">
     {% include sidebar.html %}
 

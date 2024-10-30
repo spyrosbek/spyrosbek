@@ -1,6 +1,6 @@
 {% assign projects = site.data.data.projects %}
 {% if projects %}
-<section class="section projects-section">
+<section id="projects" class="section projects-section">
 
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -29,6 +29,9 @@
 
       {% if project.tagline %}
       <p class="project-tagline">{{ project.tagline }}</p>
+      <p>
+        Stack: {{ project.tech }}
+      </p>
       {% endif %}
 
     </div><!--//item-->

@@ -57,12 +57,27 @@ sidebar:
         - item: Travelling
           link:
 
+navbar:
+  enabled: False
+  sections:
+    - label: Profile
+      tag: profile
+    - label: Education
+      tag: education
+    - label: Projects
+      tag: projects
+    - label: Freelancing
+      tag: freelancing
+    - label: Experience
+      tag: experience
+    - label: Skills
+      tag: skills
+    - label: Publications
+      tag: publications
+
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
-      Graduated from the School of Electrical and Computer Engineering of National Technical University of Athens.
-      Majored in Computer Systems and Software with a diploma thesis on the Design and Development of a Crowdsourcing Platform for metadata enrichment in Digital Cultural Heritage.
-      
       I am a Software Engineer, specialized as a Frontend Developer on a variety of projects and use-cases.
       I use a wide range of Database and Web technologies.
       
@@ -84,42 +99,32 @@ education:
 experiences:
     title: Experience
     info:
-      - role: Software Engineer / Frontend Developer
+      - role: Software Engineer / Frontend Team Lead
         time: May 2022 - Present
         company: Datoptron (Athens, Greece)
         details: |
-          - Software engineer responsible for the company’s frontend team.
-          - Responsible to build efficient, scalable, and maintainable web applications.
-          - Applying Scrum/Agile development methodologies using project management tools such as JIRA.
-          - Problem solving by making use of the entire development cycle.
-          - Collaborating within cross-functional teams, committed to participating in code reviews to maintain code quality and consistency.
-      - role: Software Engineer / Junior Researcher
-        time: Feb 2019 - Present
+          - Project management and communication with project partners about requirements, progress, and deliverables.
+          - Responsible for the front‑end team (3 people), for planning and monitoring regular coding sprints.
+          - Responsible for delivering an idea/concept through all stages of SDLC to a fully functioning product.
+          - Applying Scrum/Agile development methodologies using project management tools (JIRA).
+      - role: Front-end Engineer / Junior Researcher
+        time: Feb 2019 - May 2022
         company: NTUA - Artificial Intelligence and Learning Systems Laboratory (Athens, Greece)
         details: |
-          - Working as a Software Engineer and Frontend Developer in the design and development of web platforms.
-          - Coordinating the laboratory's frontend team (3 devs), planning and monitoring regular coding sprints.
-          - Project management and communications with partners about the project requirements.
-          - Responsible for delivering an idea/concept through all stages of SDLC to a fully functioning product.
-          - Participating in the laboratory's research team on authoring papers about the team's latest work.
-      - role: Co-Founder / Frontend Web Developer
+          - Worked as a Software Engineer and Frontend Developer on designing and developing various web platforms.
+          - Responsible for building efficient, scalable, and maintainable web applications.
+          - Problem‑solving by making use of the entire development cycle.
+          - Collaborating within cross‑functional teams, committed to participating in code reviews to maintain code quality and consistency.
+          - Participating in the laboratory’s research team on authoring papers about the team’s latest work.
+      - role: Co-Founder / Software Developer
         time: Mar 2022 - Apr 2023
         company: Nerion (Chios, Greece - remote)
         details: |
-          - Co-created and participated in a team that has been involved in multiple international projects.
-          - Worked with Python and Django, as well as JavaScript and Vue.js.
+          - Co‑created and participated in a team that has been involved in national and international projects.
+          - Worked with Python and Django, as well as JavaScript and Vue2.
           - Our team took over the maintenance, development, and extension of the platform Ellinopoula.
-          - Our team, in close collaboration with the startup Grapevine, was responsible about the maintenance and expansion of the platform 11888 -
-          Giaola.
-      - role: Frontend Web Developer
-        time: Mar 2020 - Nov 2021
-        company: ThinkCode (Nicosia, Cyprus - remote)
-        details: |
-          - Worked as a Frontend Engineer for the European project the company was participating to, called ”Europeana XX: Century of Change”, and
-          which focused on the 20th century and its social, political and economical changes as documented in photographs, videos, paintings and files.
-          - The project delivered high-quality content to Europeana and increased the quality of existing content and metadata currently available in
-          Europeana Collections to enhance their discoverability and reuse.
-      - role: Frontend Web Developer
+          - Our team, in close collaboration with the startup Grapevine, was responsible about the maintenance and expansion of the platform 11888 ‑ Giaola.
+      - role: Front-end Developer
         time: June - Sept 2020, Apr - July 2021
         company: Europeana Foundation (Hague, Netherlands - remote)
         details: |
@@ -141,12 +146,10 @@ experiences:
         time: Oct 2016 - Sept 2017
         company: NTUA - Intelligent Systems Laboratory (Athens, Greece)
         details: |
-          - Designed and developed the crowdsourcing platform ’WITHcrowd’ as part of my Diploma Thesis
-          - Helped in a variety of Projects that were running at the lab, at that time
-          - Studied a wide variety of existing work and tools in the Crowdsourcing field
-          - Studied and extended the Back-End of the lab’s existing platform ’WITH’, using Java and Play Framework
-          - Designed the database model (in NoSQL) used for the development of WITHcrowd, alongside with the necessary Back-End API
-          - Developed the Front-End of WITHcrowd using the Aurelia-JS framework
+          - Designed and developed the crowdsourcing platform ’WITHcrowd’ as part of my Diploma Thesis.
+          - Extended the Back‑End of the lab’s existing platform ’WithCulture’, using Java and Play Framework.
+          - Designed the database model (in NoSQL) used for the development of WITHcrowd, alongside the necessary Back‑End API.
+          - Developed the Front‑End of WITHcrowd using the Aurelia.js framework.
 projects:
     title: Projects
     intro: >
@@ -155,43 +158,52 @@ projects:
       - title: "AI4Culture"
         link: "https://ai4culture.eu/"
         tagline: "AI4Culture is a platform designed to provide comprehensive training and resources for individuals and institutions interested in applying Artificial Intelligence (AI) technologies in the cultural heritage sector. It aims to empower users with the knowledge and skills needed to leverage AI for preserving, managing, and promoting cultural heritage."
-
-      - title: "SAGE"
-        link: "https://sage-dev.ails.ece.ntua.gr/signin"
-        tagline: "SAGE  is a web-based tool for generating, enriching, validating, searching and publishing data as a knowledge graph."
+        tech: "TypeScript, Vue3, Nuxt.js, Pinia, Jest, Storybook"
 
       - title: "STIRData"
         link: "https://dev.stirdata.eu/"
         tagline: "STIRData is an online platform for searching, navigating, synthetically analysing, and visualising company-related open data content."
+        tech: "JavaScript, Vue2, Nuxt.js, Vuex"
+
+      - title: "CrowdHeritage"
+        link: "https://crowdheritage.eu/"
+        tagline: "CrowdHeritage is an online platform for conducting crowdsourcing campaigns in order to enrich and validate the metadata of cultural heritage collections."
+        tech: "JavaScript, Aurelia.js"
+
+      - title: "Europeana"
+        link: "https://www.europeana.eu/"
+        tagline: "Europeana is a digital platform providing access to millions of digitized cultural heritage items from across Europe, including artworks, books, music, and more. It collaborates with various museums, galleries, and libraries to make these collections available to the public. Europeana supports education, research, and creative industries by offering a wide array of resources and tools that celebrate and preserve European culture and history."
+        tech: "JavaScript, Vue2, Nuxt.js, Vuex, Storybook"
 
       - title: "Giaola 11888"
         link: "https://www.11888.gr/"
         tagline: "Giaola is an online platform providing cataloging and indexing services for professionals and companies located in Greece. It is owned by the
 Hellenic Telecommunications Organisation S.A. (OTE Group)"
+        tech: "JavaScript, Vue2, Python, Django"
 
       - title: "Ellinopoula"
         link: "https://www.ellinopoula.com/"
         tagline: "Ellinopoula is an e-learning platform designed for kids to learn Greek online and help both parents and teachers pass on Hellenism to the next
 generation."
+        tech: "JavaScript, Vue2"
+
+      - title: "SAGE"
+        link: "https://sage-dev.ails.ece.ntua.gr/signin"
+        tagline: "SAGE  is a web-based tool for generating, enriching, validating, searching and publishing data as a knowledge graph."
+        tech: "TypeScript, Vue3, Nuxt.js, Vuex"
 
       - title: "CultureLabs"
         link: "https://recipes.culture-labs.eu/"
         tagline: "CultureLabs Recipes is a digital platform aimed at fostering social innovation through the sharing of community-led cultural projects. It offers a collection of 'recipes' that detail different methodologies and approaches for creating inclusive, participatory cultural activities."
-
-      - title: "Europeana"
-        link: "https://www.europeana.eu/"
-        tagline: "Europeana is a digital platform providing access to millions of digitized cultural heritage items from across Europe, including artworks, books, music, and more. It collaborates with various museums, galleries, and libraries to make these collections available to the public. Europeana supports education, research, and creative industries by offering a wide array of resources and tools that celebrate and preserve European culture and history."
-
-      - title: "CrowdHeritage"
-        link: "https://crowdheritage.eu/"
-        tagline: "CrowdHeritage is an online platform for conducting crowdsourcing campaigns in order to enrich and validate the metadata of cultural heritage collections."
+        tech: "JavaScript, Vue2"
 
       - title: "WITHCulture"
         link: "https://withculture.eu/"
         tagline: "WITHCulture provides access to digital cultural heritage items from different repositories and  offers a number of added-value services for their creative reuse."
+        tech: "JavaScript, Aurelia.js"
 
 freelancing:
-    title: Freelance Web Projects
+    title: Freelancing
     intro: >
       Promotional websites I have created as freelancing projects
     assignments:
