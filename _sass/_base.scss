@@ -48,8 +48,13 @@ p {
   order: 2;
   background: $theme-color;
   color: #fff;
+  position: relative;
   a {
     color: #fff;
+  }
+  .sidebar-container {
+    position: sticky;
+    top: 0;
   }
   .profile-container {
     padding: 30px;
@@ -293,6 +298,15 @@ p {
     font-size: 16px;
     color: white;
     text-decoration: none;
+  }
+}
+
+.sections-nav {
+  padding: 30px;
+  border-top: 1px solid lighten($theme-color, 30%);
+  ul {
+    padding: 0;
+    list-style: none;
   }
 }
 
